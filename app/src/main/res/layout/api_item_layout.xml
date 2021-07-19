@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+
+        android:id="@+id/card">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:id="@+id/date"
+                />
+            <TextView
+                android:id="@+id/positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="positive"/>
+
+            <TextView
+                android:id="@+id/negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="negative"/>
+
+            <TextView
+                android:id="@+id/hosp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hospitalizedCurrently"/>
+
+            <TextView
+                android:id="@+id/onvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On vent currently"/>
+
+            <TextView
+                android:id="@+id/det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="det"/>
+
+            <TextView
+                android:id="@+id/datechecked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="datechecked"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
